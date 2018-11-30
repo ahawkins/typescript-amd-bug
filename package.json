@@ -1,0 +1,14 @@
+{
+  "name": "typescript-amd-bug",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Adam Hawkins <hi@ahawkins.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node test.js"
+  },
+  "dependencies": {
+    "typescript": "^3.2.1"
+  }
+}
